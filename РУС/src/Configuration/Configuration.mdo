@@ -39,5 +39,16 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.ГлавнаяСтраница</subsystems>
+  <commonModules>CommonModule.ЗаписьПакетаДанныхСервер</commonModules>
+  <commonModules>CommonModule.ПервичныйЗапускКонфигурацииСервер</commonModules>
+  <catalogs>Catalog.ТипыГрузовызРазмещений</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
+  <documents>Document.РасчетУслугСортировки</documents>
+  <documents>Document.УстановкаТарифаНаУслугу</documents>
+  <enums>Enum.ТипыДней</enums>
+  <reports>Report.ОтчетПоРасчетамУслугСортировки</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаДанныхИзCSV</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныНаУслуги</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.СтоимостьРасчетаСортировки</accumulationRegisters>
 </mdclass:Configuration>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1517393-b5f4-4bf0-9944-57b62625dab6">
+  <producedTypes>
+    <selectionType typeId="a509118f-8fc2-46d6-a476-a7d246b2405a" valueTypeId="94af96bd-de15-480b-93d3-fffeb6e7285b"/>
+    <listType typeId="80b6bdbe-fe8a-4d08-9ac1-6ff3980a3e77" valueTypeId="93beed4d-3a03-4cc7-ab23-88d1a55c3373"/>
+    <managerType typeId="5f5a39c6-94ff-4cf4-a3a2-9afd70b971cd" valueTypeId="b7678c90-8dfd-4c47-b459-9f42fb793b86"/>
+    <recordSetType typeId="761c8c4b-38e6-4592-9245-d281a1ecc2a3" valueTypeId="5ad9764d-879b-4762-b624-f61da395c7d6"/>
+    <recordKeyType typeId="1a7609e1-48cd-4ecd-b377-bac11be91598" valueTypeId="da782943-5449-4e11-b646-b816a2e98711"/>
+    <recordType typeId="dde772a9-ba38-4926-8ff9-d07706351909" valueTypeId="ad83de69-aa9e-45cf-bd75-e8459ce06420"/>
+    <recordManagerType typeId="e65454cb-7ef1-4cca-bcf6-9c9d23429963" valueTypeId="10f133bc-e3f6-40a0-9eae-231c685e2459"/>
+  </producedTypes>
+  <name>ЦеныНаУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены на услуги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5471bfce-84e2-40dc-ad6d-e0bfc29dfd24">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d559a0d1-b6d7-48a2-a098-c89a8ae08ff5">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Услуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="618211ba-9e63-46a8-951e-03fca58a2f5a">
+    <name>ТипГрузовогоМеста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип грузового места</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыГрузовызРазмещений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="70ed6fa9-80d2-4818-97af-37f78d5d8309">
+    <name>КоличествоОт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество от</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+  <dimensions uuid="2d8fd770-ffc3-47ab-aaa9-92d8d3f5448d">
+    <name>КоличествоДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество до</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+  <dimensions uuid="56152879-ac7a-4bd8-a1c3-fa7a340ab62d">
+    <name>ТипДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип дня</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыДней</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+</mdclass:InformationRegister>

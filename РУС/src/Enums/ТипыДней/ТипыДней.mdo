@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6bbd221-f979-4cec-b85f-d3ddefbe61f4">
+  <producedTypes>
+    <refType typeId="9e45b805-d3e3-4d56-829a-e7fc088d58ce" valueTypeId="73e88c11-d763-4209-a31b-5897262e8571"/>
+    <listType typeId="8e9724fa-1127-44c5-8584-0b356effc256" valueTypeId="aa4fa44c-dda4-4695-8903-374e3c8c1c26"/>
+    <managerType typeId="37281488-b90f-4799-8011-01c3579afe28" valueTypeId="92846447-3f2e-4bbc-9692-3f415d3ba785"/>
+  </producedTypes>
+  <name>ТипыДней</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы дней</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ec3cd66a-e0af-4c1b-b3ca-adf52305b91b">
+    <name>Рабочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="360c62c2-6bc5-404c-a5ef-20194451216f">
+    <name>Выходной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выходной</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

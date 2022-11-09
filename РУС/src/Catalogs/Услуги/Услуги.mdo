@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d9299ce-f58e-4ade-a177-78285ac6dec6">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d9299ce-f58e-4ade-a177-78285ac6dec6">
   <producedTypes>
     <objectType typeId="dc70e5a1-f9f6-445b-a2be-c815e89a9825" valueTypeId="2a8805be-87be-4fac-9492-e6ef6106af6c"/>
     <refType typeId="eecf5670-219c-4932-a848-fd91de49c83c" valueTypeId="a2970266-cc6b-4365-a512-55cf2eb1944e"/>
@@ -28,6 +28,22 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="890fb7f1-6f5a-401b-8341-94bea32baa59">
+      <name>Хранение</name>
+      <description>Хранение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="393e7b79-133c-4b77-81b7-1ea6d319eb8a">
+      <name>Обработка</name>
+      <description>Обработка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
 </mdclass:Catalog>

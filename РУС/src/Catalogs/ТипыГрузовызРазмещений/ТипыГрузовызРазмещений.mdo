@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e087db35-323e-4d64-8dce-e1a94dc2bf01">
+  <producedTypes>
+    <objectType typeId="a22d9893-dc21-4293-b491-78fb5ab25b8f" valueTypeId="758b927f-020b-442c-966d-7cbfbe7def26"/>
+    <refType typeId="86f710d3-dd52-43f5-833d-ea01e271171f" valueTypeId="62301a93-ea71-4f2c-b891-5d2d1833c9dd"/>
+    <selectionType typeId="b396a817-1304-4573-b311-19fd34d74f09" valueTypeId="8c559f5c-71be-40c6-a91a-80af8b38763a"/>
+    <listType typeId="08b922c5-2863-4f64-bc65-489d7ffebe74" valueTypeId="1e39b589-2c3e-489e-8138-33a37c49584f"/>
+    <managerType typeId="6b46df16-f60e-4d44-b4cb-e1b72dddbac0" valueTypeId="4dccda94-2f8b-402d-b164-8cc7aa7ba30d"/>
+  </producedTypes>
+  <name>ТипыГрузовызРазмещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы грузовыз размещений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыГрузовызРазмещений.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТипыГрузовызРазмещений.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="c1edf0ed-f304-4ca2-af75-9064d1a82ff4">
+      <name>Хаб</name>
+      <description>Хаб</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="66677cb2-4fd1-41c8-a9ad-476b1955d872">
+      <name>Шины</name>
+      <description>Шины</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="b834851a-334c-4060-a771-8981db5d63c1">
+      <name>КГТ</name>
+      <description>КГТ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="2c88b93f-3fb9-40fd-a750-70ba5ed78489">
+      <name>МГТ</name>
+      <description>МГТ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
